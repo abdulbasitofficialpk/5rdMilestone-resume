@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1640346876473-f76a73c71539?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwYmd8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-heading {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Arial Black', 'Arial', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(204, 194, 194, 0.5);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: rgb(63, 63, 63);
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid azure;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #fbfdff;
+}
+legend{
+    display: block;
+    margin-top: 10px;
+    color: #f6fbff;
+}
+label{
+    color: white;
+    font-family: 'Arial',sans-serif;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 4px;
+    border: 2px solid #fbfdff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background: #f6fbff;
+    border: 2px solid #fbfdff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Arial',sans-serif;
+    color: #111827; 
+    background-color: #f9fafb; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus, textarea:focus {
+    border-color: #fbfdff;
+    box-shadow: 0 0 4px rgba(204, 194, 194, 0.5);
+    outline: none;
+    background-color: #ffffff;
+}
+button:hover{
+    background: #ecf7ff;
+    cursor: pointer;
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid azure;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#resumeOutput h2{
+    color: white;
+}
+.profilepicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid azure;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+#shareableLink{
+    color: white;
+}
